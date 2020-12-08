@@ -1,0 +1,69 @@
+body{
+    background-color: aqua;
+}
+#logo{
+    width: 80%;
+    max-width: 100px;
+    height: 50%;
+    max-height: 100px;
+    float: left;
+    padding-left:0px;
+    margin-left:0px ;
+}
+#nav{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+#nav ul{
+    text-decoration: none;
+    list-style: none;
+}
+#nav ul li{
+    float: left;
+    padding: 20px;
+    margin-right: 10px;
+}
+#nav a{
+    color:whitesmoke;
+    font:bold;
+    text-decoration: none;
+}
+h1{
+    font-family: fantasy;
+    padding:20px 0px 0px 0px;
+    text-align: center;
+
+}
+.gallary{
+    padding:20px;
+    overflow: hidden;
+}
+.card{
+    transition: all 1.3s ease;
+    
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.inner{
+    overflow:hidden;
+}
+.inner img{
+    transition:all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+footer ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
